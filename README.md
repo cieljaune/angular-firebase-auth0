@@ -1,9 +1,6 @@
-# AngularJS + Auth0 +  Firebasese
-Angular Seed project use Firebase and Auth0
+# AngularJS + Auth0 +  Firebase
 
-This is the seed project you need to use if you're going to create an AngularJS app that will use Auth0 and an API that you're going to be developing. That API can be in any language.
-
-If you want to connect to a third party API like Firebase or Amazon, please check [this other seed](https://github.com/auth0/auth0-angular/tree/master/examples/widget-with-thirdparty-api).
+This is the seed project you need to use if you're going to create an AngularJS app that will use Auth0 and Firebase.
 
 ## Running the example
 
@@ -11,6 +8,8 @@ In order to run the example you need to just start a server. What we suggest is 
 
 1. Install node
 1. run npm install -g serve
+1. complete auth0-variables.js with your keys
+1. configure your Auth0, manage your Application, set Addon : Firebase 
 1. run serve in the directory of this project.
 
 Go to [http://localhost:3000](http://localhost:3000) and you'll see the app running :).
