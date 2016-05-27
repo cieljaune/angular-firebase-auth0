@@ -1,4 +1,5 @@
-# Auth0 + AngularJS + API Seed
+# AngularJS + Auth0 +  Firebasese
+Angular Seed project use Firebase and Auth0
 
 This is the seed project you need to use if you're going to create an AngularJS app that will use Auth0 and an API that you're going to be developing. That API can be in any language.
 
