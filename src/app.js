@@ -11,18 +11,18 @@ var app = angular.module( 'sample', [
   $routeProvider
     .when( '/', {
       controller: 'HomeCtrl',
-      templateUrl: 'home/home.html',
+      templateUrl: 'views/home.html',
       pageTitle: 'Homepage',
       requiresLogin: true
     })
     .when( '/login', {
       controller: 'LoginCtrl',
-      templateUrl: 'login/login.html',
+      templateUrl: 'views/login.html',
       pageTitle: 'Login'
     })
     .when( '/items', {
       controller: 'itemController',
-      templateUrl: 'item/item.html',
+      templateUrl: 'views/item.html',
       pageTitle: 'Item'
     });
 
