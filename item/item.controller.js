@@ -10,7 +10,7 @@ app
 }).then(function(response){
 
   AUTH_TOKEN = response.id_token;
-  var ref = new Firebase("https://torrid-inferno-5640.firebaseio.com/items");
+  var ref = new Firebase(FIREBASE_BASE_URL + '/items');
   ref.authWithCustomToken(AUTH_TOKEN.toString(), function(error, authData) {
   if (error) {
     console.log("Login Failed!", error);
