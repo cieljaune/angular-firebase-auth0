@@ -8,8 +8,7 @@ In order to run the example you need to just start a server. What we suggest is 
 
 1. Install node
 1. run npm install -g serve
-1. complete auth0-variables.js with your keys
-1. configure your Auth0, manage your Application, set Addon : Firebase 
+1. Create a database on Firebase and Create an application on AuthO and set Addon : Firebase 
 1. add a file to root path 'api-variables.js' with vars:
 
 	`var FIREBASE_BASE_URL  = 'your_firebase_url';`
