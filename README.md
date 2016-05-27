@@ -11,9 +11,13 @@ In order to run the example you need to just start a server. What we suggest is 
 1. complete auth0-variables.js with your keys
 1. configure your Auth0, manage your Application, set Addon : Firebase 
 1. add a file to root path 'api-variables.js' with vars:
-	`var FIREBASE_BASE_URL  = 'https://torrid-inferno-5640.firebaseio.com';`
-	`var AUTH0_CLIENT_ID    = 'tMY9pNqNuo0fLsd1ouMS31KkIBxsdADA';`
-	`var AUTH0_DOMAIN       = 'mbetari.eu.auth0.com';`
+
+	`var FIREBASE_BASE_URL  = 'your_firebase_url';`
+	
+	`var AUTH0_CLIENT_ID    = 'your_auth0_client_id';`
+	
+	`var AUTH0_DOMAIN       = 'your_auth0_domain';`
+	
 	`var AUTH0_CALLBACK_URL = location.href;`
 1. run serve in the directory of this project.
 
