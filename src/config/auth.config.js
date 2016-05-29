@@ -12,7 +12,7 @@ app
         });
 
         authProvider.on('loginSuccess', function($location, profilePromise, idToken, store) {
-          console.log("Login Success");
+          console.log("Auth0 Login Success");
           profilePromise.then(function(profile) {
             store.set('profile', profile);
             store.set('token', idToken);
@@ -25,7 +25,7 @@ app
         });
 
         authProvider.on('authenticated', function($location) {
-          console.log("Authenticated");
+          console.log("Authenticated with Auth0");
 
         });
 

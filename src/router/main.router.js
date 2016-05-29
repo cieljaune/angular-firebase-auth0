@@ -18,7 +18,8 @@ app
 		    .when( '/items', {
 		      controller: 'itemController',
 		      templateUrl: 'views/item.html',
-		      pageTitle: 'Items'
+		      pageTitle: 'Items',
+		      requiresLogin: true
 		    });
 
     });

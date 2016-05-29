@@ -1,13 +1,15 @@
 <ul>
-  <li ng-repeat="message in messages">
-    <!-- edit a message -->
-    <input ng-model="message.text" ng-change="messages.$save(message)" />
-    <!-- delete a message -->
-    <button ng-click="messages.$remove(message)">Delete Message</button>
+<h2>Items in Firebase</h2>
+  <li ng-repeat="item in items">
+    <!-- edit a item -->
+    <input ng-model="item.text" ng-change="items.$save(item)" />
+    <!-- delete a item -->
+    <button ng-click="items.$remove(item)">Delete Item</button>
   </li>
 </ul>
-<!-- push a new message onto the array -->
-<form ng-submit="addMessage()">
-  <input ng-model="newMessageText" />
-  <button type="submit">Add Message</button>
+<!-- push a new Item onto the array -->
+<form ng-submit="addItem()">
+  <input ng-model="newItemText" />
+  <button type="submit">Add Item</button>
 </form>
+<a class="btn-sm btn-info" href="#/">Home</a>

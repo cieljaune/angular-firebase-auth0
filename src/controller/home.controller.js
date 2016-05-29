@@ -1,7 +1,6 @@
 'use strict';
 
 app
-
     
     .controller( 'HomeCtrl', function HomeController( $scope, auth, $http, $location, store, $rootScope ) {
 
